@@ -1,7 +1,6 @@
 package DesignPattern.Singleton.BreakingSingletonPattern;
 
 import java.lang.reflect.Method;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
 
