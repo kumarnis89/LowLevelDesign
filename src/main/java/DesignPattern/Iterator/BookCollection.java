@@ -2,7 +2,7 @@ package DesignPattern.Iterator;
 
 import java.util.List;
 
-public class BookCollection {
+public class BookCollection implements AggregateIterator<Book> {
     List<Book> bookList = null;
 
     public BookCollection() {
@@ -20,7 +20,9 @@ public class BookCollection {
         this.bookList = bookList;
     }
 
-    public Iterator<Book> iterator(){
+
+    @Override
+    public Iterator<Book> iterator() {
         return new BookIterator(this);
     }
 }
