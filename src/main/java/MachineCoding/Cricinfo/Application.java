@@ -1,11 +1,9 @@
 package MachineCoding.Cricinfo;
 
 import MachineCoding.Cricinfo.entity.*;
-import javafx.util.Pair;
 
 public class Application {
     public static void main(String[] args) {
-        Pair<Integer,Integer> p;
         Player player1 = new Player(1L,"Player A1");
         player1.addRoleToPlayer(PlayerType.BATSMAN);
         player1.addRoleToPlayer(PlayerType.WICKETKEEPER);
