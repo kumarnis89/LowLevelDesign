@@ -1,4 +1,4 @@
-package Cricinfo.entity;
+package MachineCoding.Cricinfo.entity;
 
 import java.util.ArrayList;
 import java.util.List;

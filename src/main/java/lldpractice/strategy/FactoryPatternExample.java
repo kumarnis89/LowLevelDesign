@@ -10,11 +10,11 @@ public class FactoryPatternExample {
         System.out.println(sde3Engineer.calculateIncrement());
 
 
-        Bike bike = VehicleFactory("BIKE");
-        bike.start();
-        Car car = VehicleFactory("CAR");
-        car.start();
-        Train train = VehicleFactory("Train");
-        train.start();
+//        Bike bike = VehicleFactory("BIKE");
+//        bike.start();
+//        Car car = VehicleFactory("CAR");
+//        car.start();
+//        Train train = VehicleFactory("Train");
+//        train.start();
     }
 }

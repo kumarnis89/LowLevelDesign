@@ -1,4 +1,4 @@
-package Cricinfo.entity;
+package MachineCoding.Cricinfo.entity;
 
 public class Ball {
     private Player bowler;

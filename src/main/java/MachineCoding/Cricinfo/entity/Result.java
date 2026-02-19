@@ -1,4 +1,4 @@
-package Cricinfo.entity;
+package MachineCoding.Cricinfo.entity;
 
 public enum Result {
     SINGLE(1),

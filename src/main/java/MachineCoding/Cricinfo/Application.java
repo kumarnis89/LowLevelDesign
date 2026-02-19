@@ -1,11 +1,7 @@
-package Cricinfo;
+package MachineCoding.Cricinfo;
 
-import Cricinfo.entity.*;
+import MachineCoding.Cricinfo.entity.*;
 import javafx.util.Pair;
-
-import javax.imageio.ImageTranscoder;
-import java.util.HashSet;
-import java.util.Set;
 
 public class Application {
     public static void main(String[] args) {
